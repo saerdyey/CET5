@@ -5,7 +5,7 @@ define('STUDENT_NUMBER', '2018-03745-MN-0');
 define('ADDRESS', '#63 Kaligtasan Ext., Holy Spirit Q.C.');
 define('EMAIL_ADDRESS', 'jayantonroblico23@gmail.com');
 define('CONTACT_NUMBER', '09636874548');
-define('WEB_ADDRESS', 'jayantonton.netlify.app');
+define('WEB_ADDRESS', 'cet5_lab_roblico');
 define('LAB_TITLE', 'Laboratory Activity No. 2');
 define('DESCRIPTION', 'Creating Basic PHP Script');
 
@@ -35,8 +35,8 @@ $gender = 'Male';
     <div class="nav-section">
         <nav>
             <ul>
-                <li><a href="/roblico/lab1.php">Hello World</a></li>
-                <li><a href="/roblico/lab2.php">Basic PHP Script</a></li>
+                <li><a href="/lab1.php">Hello World</a></li>
+                <li><a href="/lab2.php">Basic PHP Script</a></li>
                 <li><a href="#">Lab 3</a></li>
                 <li><a href="#">Lab 4</a></li>
                 <li><a href="#">Lab 5</a></li>

@@ -9,6 +9,12 @@ define('WEB_ADDRESS', 'cet5_lab_roblico');
 define('LAB_TITLE', 'Laboratory Activity No. 2');
 define('DESCRIPTION', 'Creating Basic PHP Script');
 
+$school = 'Polytechnic University of The Philippines';
+$course = 'Bachelor of Science in Computer Engineering';
+$yearLevel = 3;
+$dateOfBirth = '03-23-2000';
+$gender = 'Male';
+
 ?>
 
 <!DOCTYPE html>
@@ -29,8 +35,8 @@ define('DESCRIPTION', 'Creating Basic PHP Script');
     <div class="nav-section">
         <nav>
             <ul>
-                <li><a href="/lab1.php">Hello World</a></li>
-                <li><a href="/lab2.php">Basic PHP Script</a></li>
+                <li><a href="lab1.php">Hello World</a></li>
+                <li><a href="lab2.php">Basic PHP Script</a></li>
                 <li><a href="#">Lab 3</a></li>
                 <li><a href="#">Lab 4</a></li>
                 <li><a href="#">Lab 5</a></li>
@@ -50,10 +56,8 @@ define('DESCRIPTION', 'Creating Basic PHP Script');
     </div>
     
     <div class="content-section">
-        <?php
-        echo "Hello World ";
-        echo "Today is ".date("m/d/Y");
-        ?>
+        <h1>Home Page</h1>
+        <p>Use the navigation to see the laboraties</p>
     </div>
     </div>
     
