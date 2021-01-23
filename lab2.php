@@ -35,9 +35,10 @@ $gender = 'Male';
     <div class="nav-section">
         <nav>
             <ul>
-                <li><a href="/lab1.php">Hello World</a></li>
-                <li><a href="/lab2.php">Basic PHP Script</a></li>
-                <li><a href="#">Lab 3</a></li>
+                <li><a href="/roblico">Home Page</a></li>
+                <li><a href="lab1.php">Hello World</a></li>
+                <li><a href="lab2.php">Basic PHP Script</a></li>
+                <li><a href="lab3.php">Data Types and Operators</a></li>
                 <li><a href="#">Lab 4</a></li>
                 <li><a href="#">Lab 5</a></li>
                 <li><a href="#">Lab 6</a></li>
