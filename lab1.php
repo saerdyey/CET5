@@ -6,8 +6,8 @@ define('ADDRESS', '#63 Kaligtasan Ext., Holy Spirit Q.C.');
 define('EMAIL_ADDRESS', 'jayantonroblico23@gmail.com');
 define('CONTACT_NUMBER', '09636874548');
 define('WEB_ADDRESS', 'cet5_lab_roblico');
-define('LAB_TITLE', 'Laboratory Activity No. 2');
-define('DESCRIPTION', 'Creating Basic PHP Script');
+define('LAB_TITLE', 'Laboratory Activity No. 1');
+define('DESCRIPTION', 'Hello World');
 
 ?>
 
@@ -17,7 +17,7 @@ define('DESCRIPTION', 'Creating Basic PHP Script');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo LAB_TITLE;?></title>
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -30,11 +30,11 @@ define('DESCRIPTION', 'Creating Basic PHP Script');
         <nav>
             <ul>
             <li><a href="/roblico">Home Page</a></li>
-                <li><a href="lab1.php">Hello World</a></li>
-                <li><a href="lab2.php">Basic PHP Script</a></li>
-                <li><a href="lab3.php">Data Types and Operators</a></li>
-                <li><a href="#">Lab 4</a></li>
-                <li><a href="#">Lab 5</a></li>
+                <li><a href="lab1.php"><?php echo DESCRIPTION;?></a></li>
+                <li><a href="lab2.php">Creating Basic PHP Script</a></li>
+                <li><a href="lab3.php">Working with Data Types and Operators</a></li>
+                <li><a href="lab4.php">Functions and Control Structures –Number to Words</a></li>
+                <li><a href="lab5.php">Magic Square</a></li>
                 <li><a href="#">Lab 6</a></li>
                 <li><a href="#">Lab 7</a></li>
                 <li><a href="#">Lab 8</a></li>

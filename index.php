@@ -23,7 +23,7 @@ $gender = 'Male';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo LAB_TITLE;?></title>
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -37,10 +37,10 @@ $gender = 'Male';
             <ul>
                 <li><a href="/roblico">Home Page</a></li>
                 <li><a href="lab1.php">Hello World</a></li>
-                <li><a href="lab2.php">Basic PHP Script</a></li>
-                <li><a href="lab3.php">Data Types and Operators</a></li>
-                <li><a href="#">Lab 4</a></li>
-                <li><a href="#">Lab 5</a></li>
+                <li><a href="lab2.php">Creating Basic PHP Script</a></li>
+                <li><a href="lab3.php">Working with Data Types and Operators</a></li>
+                <li><a href="lab4.php">Functions and Control Structures –Number to Words</a></li>
+                <li><a href="lab5.php">Magic Square</a></li>
                 <li><a href="#">Lab 6</a></li>
                 <li><a href="#">Lab 7</a></li>
                 <li><a href="#">Lab 8</a></li>
