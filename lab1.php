@@ -35,17 +35,11 @@ define('DESCRIPTION', 'Hello World');
                 <li><a href="lab3.php">Working with Data Types and Operators</a></li>
                 <li><a href="lab4.php">Functions and Control Structures –Number to Words</a></li>
                 <li><a href="lab5.php">Magic Square</a></li>
-                <li><a href="#">Lab 6</a></li>
-                <li><a href="#">Lab 7</a></li>
-                <li><a href="#">Lab 8</a></li>
-                <li><a href="#">Lab 9</a></li>
-                <li><a href="#">Lab 10</a></li>
-                <li><a href="#">Lab 11</a></li>
-                <li><a href="#">Lab 12</a></li>
-                <li><a href="#">Lab 13</a></li>
-                <li><a href="#">Lab 14</a></li>
-                <li><a href="#">Lab 15</a></li>
-                <li><a href="#">Lab 16</a></li>
+                <li><a href="lab6.php">String Functions in PHP</a></li>
+                <li><a href="Lab7.php">Regular Expression</a></li>
+                <li><a href="lab8.php">Array Manipulations - Word Counter</a></li>
+                <li><a href="lab9.php">Handling User Input - User Registration</a></li>
+                <li><a href="lab10.php">Handling User Input - Dynamic Page</a></li>
             </ul>
         </nav>
     </div>

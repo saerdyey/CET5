@@ -9,26 +9,6 @@ define('WEB_ADDRESS', 'cet5_lab_roblico');
 define('LAB_TITLE', 'Laboratory Activity No. 4');
 define('DESCRIPTION', 'Magic Square');
 
-$number = (int)(isset($_POST['number']) ? $_POST['number'] : 0);
-if (($number < 1) or ($number > 999)) {
-    if (count($_POST) > 0) {
-        $words = 'Sorry, I can process 1 to 999 only!';
-    }
-    else {
-        $words = '&nbsp;';
-    }
-}
-else {
-    $words = $number . ' in words is ' . NumberToWords($number);
-}
-
-function NumberToWords($number){
-    $words = '';
-    $f = new NumberFormatter("en", NumberFormatter::SPELLOUT);
-    return ucfirst($f->format($number));
-}
-
-
 ?>
 
 <!DOCTYPE html>
@@ -52,20 +32,14 @@ function NumberToWords($number){
                     <li><a href="/roblico">Home Page</a></li>
                     <li><a href="lab1.php">Hello World</a></li>
                     <li><a href="lab2.php">Creating Basic PHP Script</a></li>
-                    <li><a href="lab3.php">Working with Data Types and Operators]</a></li>
-                    <li><a href="lab4.php">Number to Words</a></li>
+                    <li><a href="lab3.php">Working with Data Types and Operators</a></li>
+                    <li><a href="lab4.php">Functions and Control Structures –Number to Words</a></li>
                     <li><a href="lab5.php"><?php echo DESCRIPTION;?></a></li>
-                    <li><a href="#">Lab 6</a></li>
-                    <li><a href="#">Lab 7</a></li>
-                    <li><a href="#">Lab 8</a></li>
-                    <li><a href="#">Lab 9</a></li>
-                    <li><a href="#">Lab 10</a></li>
-                    <li><a href="#">Lab 11</a></li>
-                    <li><a href="#">Lab 12</a></li>
-                    <li><a href="#">Lab 13</a></li>
-                    <li><a href="#">Lab 14</a></li>
-                    <li><a href="#">Lab 15</a></li>
-                    <li><a href="#">Lab 16</a></li>
+                    <li><a href="lab6.php">String Functions in PHP</a></li>
+                    <li><a href="Lab7.php">Regular Expression</a></li>
+                    <li><a href="lab8.php">Array Manipulations - Word Counter</a></li>
+                    <li><a href="lab9.php">Handling User Input - User Registration</a></li>
+                    <li><a href="lab10.php">Handling User Input - Dynamic Page</a></li>
                 </ul>
             </nav>
         </div>
